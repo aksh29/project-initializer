@@ -3,7 +3,7 @@ import os
 from github.MainClass import Github
 # from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 path = os.getenv("FILEPATH")
 username = os.getenv("USERNAME")
@@ -18,5 +18,3 @@ def create():
 
 if __name__ == "__main__":
     create()
-
-    f7d874db7abfb29df186e5ac448aa8325204fc96
